@@ -8,31 +8,49 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!--Шапка файла-->
-    <header>
+    <header class="header">
       <div>
-        <nav>
-          <a href="" lang="en"
-            ><span class="logo-web">Web</span
-            ><span class="logo-studio">Studio</span></a
-          >
-          <ul>
-            <li><a href="">Студия</a></li>
-            <li><a href="">Портфолио</a></li>
-            <li><a href="">Контакты</a></li>
+        <nav class="navigation">
+          <a class="logo link" href="" lang="en">
+            <span class="logo-web">Web</span
+            ><span class="logo-studio">Studio</span>
+          </a>
+          <ul class="navigation-menu list">
+            <li class="navigation-list">
+              <a class="navigation-list-link link" href="">Студия</a>
+            </li>
+            <li class="navigation-list">
+              <a class="navigation-list-link link" href="">Портфолио</a>
+            </li>
+            <li class="navigation-list">
+              <a class="navigation-list-link link" href="">Контакты</a>
+            </li>
           </ul>
-          <address>
-            <ul>
-              <li>
-                <a href=""><img src="./images/email.svg" alt="почта" /></a>
-                <a href="meilto:info@devstudio.com">info@devstudio.com</a>
+          <address class="header-address">
+            <ul class="list">
+              <li class="adress-list">
+                <a class="navigation-list-link link" href=""
+                  ><img src="./images/email.svg" alt="почта"
+                /></a>
+                <a
+                  class="header-mail-link link"
+                  href="meilto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
               <li>
-                <a href><img src="./images/tel.svg" alt="телефон" /></a>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="navigation-list-link link" href="">
+                  <img src="./images/tel.svg" alt="телефон" />
+                </a>
+                <a class="header-tel-link link" href="tel:+380961111111"
+                  >+38 096 111 11 11
+                </a>
               </li>
             </ul>
           </address>
@@ -41,14 +59,14 @@
     </header>
     <main>
       <div>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
+        <h1 class="">Эффективные решения для вашего бизнеса</h1>
+        <button class="modal-btn">Заказать услугу</button>
       </div>
 
       <!--О нас-->
       <div>
         <h2 hidden>О нас</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./images/antenna.svg" alt="Внимание к деталям" />
             <h3>Внимание к деталям</h3>
@@ -93,7 +111,7 @@
       <!--Чем мы занимаемся-->
       <div>
         <h2>Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/desctop.jpg"
@@ -127,7 +145,7 @@
       <!--Наша команда-->
       <div>
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img
               src="./images/produkt.jpg"
@@ -138,7 +156,7 @@
             <h2>Николай Кучеренко</h2>
             <p lang="en">Product Designer</p>
             <nav>
-              <ul>
+              <ul class="list">
                 <li><a href="" arial-label="Instagram">Instagram</a></li>
                 <li><a href="" arial-label="Twitter">Twitter</a></li>
                 <li><a href="" arial-label="Facebook">Facebook</a></li>
@@ -155,7 +173,7 @@
             />
             <h2>Ольга Иванова</h2>
             <p lang="en">Frontend Developer</p>
-            <ul>
+            <ul class="list">
               <li><a href="" arial-label="Instagram">Instagram</a></li>
               <li><a href="" arial-label="Twitter">Twitter</a></li>
               <li><a href="" arial-label="Facebook">Facebook</a></li>
@@ -171,7 +189,7 @@
             />
             <h2>Андрей Шевченко</h2>
             <p lang="en">Marketing</p>
-            <ul>
+            <ul class="list">
               <li><a href="" arial-label="Instagram">Instagram</a></li>
               <li><a href="" arial-label="Twitter">Twitter</a></li>
               <li><a href="" arial-label="Facebook">Facebook</a></li>
@@ -188,7 +206,7 @@
             <h2>Иван Николаев</h2>
             <p lang="en">UI Designer</p>
 
-            <ul>
+            <ul class="list">
               <li><a href="" arial-label="Instagram">Instagram</a></li>
               <li><a href="" arial-label="Twitter">Twitter</a></li>
               <li><a href="" arial-label="Facebook">Facebook</a></li>
@@ -201,7 +219,7 @@
       <!--Постоянные клиенты-->
       <div>
         <h2>Постоянные клиенты</h2>
-        <ul>
+        <ul class="list">
           <li>
             <a href=""><img src="./images/pc1.svg" alt="компания" /></a>
           </li>
@@ -230,7 +248,7 @@
         ><span class="logo-studio">Studio</span></a
       >
       <address>
-        <ul>
+        <ul class="list">
           <li>
             <a
               href="https://www.google.com/maps/place/бульвар+Лесі+Українки,+26,+Київ,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
@@ -243,7 +261,7 @@
       </address>
 
       <b>присоединяйтесь</b>
-      <ul>
+      <ul class="list">
         <li><a href="" arial-label="Instagram">Instagram</a></li>
         <li><a href="" arial-label="Twitter">Twitter</a></li>
         <li><a href="" arial-label="Facebook">Facebook</a></li>

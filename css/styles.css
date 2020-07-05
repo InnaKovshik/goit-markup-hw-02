@@ -1,19 +1,34 @@
-.logo-web {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+body {
+  background-color: #e5e5e5;
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.13;
+  letter-spacing: 0.02em;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus {
   color: #2196f3;
 }
 
-.logo-studio {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  color: #000000;
+.header-tel-link,
+.header-mail-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
